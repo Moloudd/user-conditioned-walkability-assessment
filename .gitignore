@@ -1,0 +1,30 @@
+# Environment
+.env
+venv/
+.venv/
+env/
+
+# Data & model artifacts (never commit; see data/README.md)
+data/images/
+data/splits/*.csv
+outputs/
+*.ckpt
+*.pth
+*.pt
+*.pkl
+*.pickle
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+
+# Notebook / editor
+.ipynb_checkpoints/
+.vscode/
+.idea/
+
+# OS
+.DS_Store

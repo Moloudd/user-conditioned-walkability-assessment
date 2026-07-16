@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "User-Conditioned Multimodal Deep Learning Framework for Walkability Perception"
+type: software
+authors:
+  - family-names: Damandeh
+    given-names: Moloud
+    affiliation: "UNSW Sydney"
+    
+version: 0.1.0
+date-released: "2026-07-09"
+license: MIT
+repository-code: https://github.com/Moloudd/user-conditioned-walkability-assessment
+

@@ -1,0 +1,7 @@
+# Final model used in the paper: Swin-Tiny + FT-Transformer + fusion transformer + CORAL.
+name: final_model
+backbone_ckpt: swin_tiny_patch4_window7_224
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: false

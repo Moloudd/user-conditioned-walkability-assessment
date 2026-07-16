@@ -1,0 +1,7 @@
+# Backbone ablation: swap swin_tiny -> convnext_tiny, everything else matches final_model.yaml.
+name: backbone_ablation/convnext_tiny
+backbone_ckpt: convnext_tiny
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: false

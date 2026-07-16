@@ -1,0 +1,8 @@
+# Image-only baseline: same setup as final_model.yaml, but tabular/demographic
+# columns are dropped before loading (tests how much those features contribute).
+name: image_only
+backbone_ckpt: swin_tiny_patch4_window7_224
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: true

@@ -1,0 +1,7 @@
+# Component ablation: swap ft_transformer -> mlp, everything else matches final_model.yaml.
+name: component_ablation/mlp__fusion_transformer__coral
+backbone_ckpt: swin_tiny_patch4_window7_224
+tabular: mlp
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: false

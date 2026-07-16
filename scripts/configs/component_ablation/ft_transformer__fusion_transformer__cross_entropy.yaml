@@ -1,0 +1,7 @@
+# Component ablation: swap coral -> cross_entropy, everything else matches final_model.yaml.
+name: component_ablation/ft_transformer__fusion_transformer__cross_entropy
+backbone_ckpt: swin_tiny_patch4_window7_224
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: cross_entropy
+drop_tabular_columns: false

@@ -1,0 +1,7 @@
+# Backbone ablation: swap swin_tiny -> caformer_b36, everything else matches final_model.yaml.
+name: backbone_ablation/caformer_b36
+backbone_ckpt: caformer_b36.sail_in22k_ft_in1k
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: false

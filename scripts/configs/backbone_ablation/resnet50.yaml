@@ -1,0 +1,7 @@
+# Backbone ablation: swap swin_tiny -> resnet50, everything else matches final_model.yaml.
+name: backbone_ablation/resnet50
+backbone_ckpt: resnet50
+tabular: ft_transformer
+fusion: fusion_transformer
+loss: coral
+drop_tabular_columns: false

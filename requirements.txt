@@ -1,0 +1,14 @@
+# Core scientific stack used directly by scripts/*.py.
+# (Also pulled in transitively by the vendored autogluon.multimodal fork
+# below, along with its own heavier deps: torch, torchvision, timm,
+# transformers, lightning, etc. — see third_party/autogluon/multimodal/setup.py.)
+numpy
+pandas
+scikit-learn
+torch
+pyyaml
+
+# The modified AutoGluon fork (adds CORAL and CORN ordinal losses, see
+# third_party/autogluon/CHANGES.md) is NOT on PyPI and must not be
+# installed as plain `autogluon`/`autogluon.multimodal` from upstream.
+# Install it from third_party/autogluon/ instead — see install.sh.
