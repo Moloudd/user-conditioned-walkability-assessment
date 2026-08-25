@@ -1,6 +1,6 @@
 # Walkable to Whom? Capturing Subjective Variability in Walkability Perception Using Multimodal Deep Learning
 
-This repository contains the official implementation of **"Walkable to Whom? Capturing Subjective Variability in Walkability Perception Using Multimodal Deep Learning."**
+This repository contains the official implementation of **[Walkable to Whom? Capturing Subjective Variability in Walkability Perception Using Multimodal Deep Learning](https://arxiv.org/abs/2608.06934)**  
 
 The proposed multimodal deep learning framework combines sidewalk-view imagery with respondent demographic and mobility characteristics to predict user-conditioned walkability ratings on a 1–5 ordinal scale. Rather than assigning a single aggregated score to each environment, the model captures variation in how different individuals perceive and rate the same pedestrian environment.
 
